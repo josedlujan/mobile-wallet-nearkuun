@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_near_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.login.SplashScreenFragment">
+
+    <ImageView
+        android:id="@+id/center_image"
+        android:layout_width="@dimen/splash_screen_width_image"
+        android:layout_height="@dimen/splash_screen_height_image"
+        android:src="@drawable/ic_main_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/welcome_tv"
+        />
+
+    <TextView
+        android:id="@+id/welcome_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/subtitle_text_size"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_button_width"
+        style="@style/PrimaryButton"
+        android:text="@string/login"
+        android:layout_marginStart="@dimen/default_button_margin"
+        android:layout_marginEnd="@dimen/default_button_margin"
+        android:layout_marginBottom="@dimen/default_button_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/register_button"
+        />
+
+    <TextView
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_button_width"
+        style="@style/SecondaryButton"
+        android:text="@string/register"
+        android:layout_marginBottom="@dimen/default_button_margin_bottom"
+        android:layout_marginStart="@dimen/default_button_margin"
+        android:layout_marginEnd="@dimen/default_button_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/default_near_medium_icon_width"
+        android:layout_height="@dimen/default_near_medium_icon_height"
+        app:layout_constraintTop_toBottomOf="@id/register_button"
+        android:src="@drawable/simbol_preferente_trans"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/default_near_medium_icon_width"
+        android:layout_height="@dimen/default_near_medium_icon_height"
+        android:src="@drawable/bottom_splash_screen_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/register_button"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

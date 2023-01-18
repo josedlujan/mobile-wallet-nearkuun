@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstItem"
+        android:title="@string/balance" />
+    <item
+        android:id="@+id/secondtItem"
+        android:title="@string/account" />
+    <item
+        android:id="@+id/thirdItem"
+        android:title="@string/send" />
+</menu>

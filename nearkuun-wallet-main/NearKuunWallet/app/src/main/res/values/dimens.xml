@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subtitle_text_size">24sp</dimen>
+    <dimen name="splash_screen_width_image">150dp</dimen>
+    <dimen name="splash_screen_height_image">150dp</dimen>
+    <dimen name="primary_button_radius">50dp</dimen>
+    <dimen name="primary_button_padding">10dp</dimen>
+    <dimen name="default_button_width">60dp</dimen>
+    <dimen name="default_button_margin">20dp</dimen>
+    <dimen name="default_button_margin_bottom">70dp</dimen>
+    <dimen name="default_near_medium_icon_width">150dp</dimen>
+    <dimen name="default_near_medium_icon_height">150dp</dimen>
+</resources>
